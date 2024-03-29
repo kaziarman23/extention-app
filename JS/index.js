@@ -1,4 +1,4 @@
-// git push : 2
+// git push : 3
 
 let myLeads = [];
 let input = document.querySelector(".inputEL");
@@ -25,3 +25,8 @@ function render() {
 
     ulEL.innerHTML = listItem;
 }
+
+// localStorage stuff
+localStorage.setItem("user","arman")
+console.log(localStorage.getItem("user"))
+localStorage.clear()
